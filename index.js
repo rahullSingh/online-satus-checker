@@ -14,11 +14,11 @@ window.addEventListener('offline',  ()=>{
 
 
 function online(){
-  document.querySelector(".status").innerText="I'm Online";
+  document.querySelector(".status").innerText="You are Online";
   document.querySelector(".status").style.backgroundColor="blue";
 }
 
 function offline(){
-  document.querySelector(".status").innerText="I'm offline";
+  document.querySelector(".status").innerText="You are offline";
   document.querySelector(".status").style.backgroundColor="red";
 }
